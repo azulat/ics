@@ -6,8 +6,8 @@
 
 ```bash
 git checkout main 
-git merge featureX --no-ff
-git branch -d featureX
+git merge origin/featureX --no-ff
 git push origin main
 git push origin --delete featureX
+git log --oneline --graph --all
 ```
